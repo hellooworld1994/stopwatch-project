@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('../pic/stopwatch.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.container{
+    width: 450px;
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 0;
+}
+#d1{
+    width: 250px;
+    height: 50px;
+    margin: 1px auto;
+}
+#pd1{
+    text-align: right;
+    font-size: 30px;
+    font-weight: bold;
+    color:aqua;
+}
+#d2{
+    width: 450px;
+    height: 130px;
+    margin:auto;
+    margin-bottom:10px;
+}
+#pd2{
+    font-size: 22px;
+    text-align: center;
+    color:black;
+    line-height: 40px;
+}
+#d3{
+    width: 350px;
+    height: 30px;
+    margin: auto;
+}
+#pd3{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    direction: rtl;
+    color: aqua;
+}
+#d4{
+    width: 350px;
+    height: 50px;
+    background-color:rgba(0,0, 0,.3); 
+    border: 1px solid black;
+    border-radius: 5px;
+    margin:auto;
+    margin-bottom: 40px;
+}
+#pd4{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 12px;
+}
+#d5{
+    width: 450px;
+    height: 200px;
+    border: 7px solid rgba(0,0, 0,.5);
+    border-radius: 5px;
+    margin: 10px auto;
+}
+#txt{
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    font-weight: bold;
+    background-color:rgba(0,0, 0,.3) ;
+    border: 1px solid black;
+    padding: 5px;
+    resize: none;
+}
+::placeholder{
+    text-align: right;
+    font-size: 18px;
+    font-weight: 200;
+    color: black;
+}
+#d6{
+    width: 70px;
+    height: 50px;
+    border: 5px solid aqua;
+    border-radius: 10px;
+    float:right;
+    margin: auto;
+    margin-top: 10px;
+}
+#bd6{
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    color:black;
+}
+#bd6:hover{
+    color: blue;
+}
+#d7{
+    width: 200px;
+    height: 70px;
+    float: left;
+}
+#pd7{
+    font-size: 50px;
+    padding: 5px;
+    font-weight: bold;
+}
